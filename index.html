@@ -45,8 +45,10 @@ about: 'about.html'
         </section>
         <footer class="post-meta">
             {% if post.author %}
-            <img class="author-thumb" src="/assets/images/profile-{{ post.author }}.png" alt="{{ post.author }}'s profile picture" nopin="nopin" />
-                {{ post.author }}
+              {% if post.author == "Hauke" or post.author == "Kaspar" %}
+                <img class="author-thumb" src="/assets/images/profile-{{ post.author }}.png" nopin="nopin" />
+              {% endif %}
+              {{ post.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
