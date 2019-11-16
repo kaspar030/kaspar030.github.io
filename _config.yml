@@ -6,7 +6,6 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /
 domain_name: 'https://blog.riot-labs.de'
 #google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
