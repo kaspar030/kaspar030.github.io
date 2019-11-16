@@ -1,9 +1,9 @@
-name: riot labs
+title: riot labs
 description: Blogging about tech, embedded, open source, life
 meta_description: "meta description"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
@@ -14,3 +14,5 @@ plugins: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'https://blog.riot-labs.de'
 author:         'Your Name'
+
+timezone: Europe/Berlin
