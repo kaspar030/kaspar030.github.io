@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
-cover: /assets/images/index_header_bg.png
+cover: false
+logo: /assets/images/logo_transparent.png
+tilogo: /assets/images/logo_transparent_standalone_f.svg
 about: 'about.html'
 ---
 
@@ -16,6 +18,7 @@ about: 'about.html'
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
+            <img src="{{page.tilogo}}" width="150px"/>
             <h1 class="page-title">{{ site.title }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
