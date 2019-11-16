@@ -5,4 +5,6 @@ title: About Us
 
 Moin!
 
-we are embedded software engineers with a love for Open Source, making and braking things, and having fun rethinking the obvious. As long as it blinks, we are in :-)
+we are embedded software engineers with a love for Open Source, making and
+breaking things, and having fun rethinking the obvious. As long as it blinks, we
+are in :-)
