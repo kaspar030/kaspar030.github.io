@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-cover: false
+cover: /assets/images/index_header_bg.png
 about: 'about.html'
 ---
 
@@ -50,12 +50,12 @@ about: 'about.html'
               {% endif %}
               {{ post.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
