@@ -16,4 +16,4 @@ url:            'https://blog.riot-labs.de'
 #author:         'Your Name'
 
 timezone: Europe/Berlin
-exclude: internal
+exclude: [internal]
