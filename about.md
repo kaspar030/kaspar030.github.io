@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About this blog
+title: About Us
 ---
 
-This blog is used to share random stuff.
+Moin!
+
+we are embedded software engineers with a love for Open Source, making and braking things, and having fun rethinking the obvious. As long as it blinks, we are in :-)
