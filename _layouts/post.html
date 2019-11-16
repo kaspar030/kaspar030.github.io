@@ -62,19 +62,20 @@ post_class: post-template
 
         <footer class="post-footer">
             <!-- If we want to display author's name and bio -->
-            {% if site.author %}
+            {% if true %}
             {% if false %}
                 <figure class="author-image">
                     <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
                     <span class="hidden">{{site.author}}'s Picture</span></a>
                 </figure>
-                {% endif %}
+            {% endif %}
                 <section class="author">
                     <!-- Author Name -->
                     <!-- <h4> {{ site.author }} </h4> -->
                     <!-- Author Bio -->
                     <p>
-                        If you like this post, buy us a beer.
+                        If you like this post, buy us a beer. <br>
+                        If you find any typos or mistakes, feel free to create a <a href="https://github.com/kaspar030/kaspar030.github.io/pulls">pull request</a>.
                     </p>
                 </section>
             {% endif %}
