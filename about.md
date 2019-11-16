@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: About this blog
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+This blog is used to share random stuff.

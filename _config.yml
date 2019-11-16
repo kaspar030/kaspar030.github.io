@@ -8,11 +8,12 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'https://blog.riot-labs.de'
-google_analytics: 'UA-XXXXXXXX-X'
+#google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'https://blog.riot-labs.de'
-author:         'Your Name'
+#author:         'Your Name'
 
 timezone: Europe/Berlin
+exclude: internal
